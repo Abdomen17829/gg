@@ -1,0 +1,69 @@
+crochet-from-heart/
+├── backend/
+│   ├── src/
+│   │   ├── models/
+│   │   │   ├── User.ts
+│   │   │   ├── Pattern.ts
+│   │   │   ├── Post.ts
+│   │   │   ├── Comment.ts
+│   │   │   ├── Conversation.ts
+│   │   │   ├── Message.ts
+│   │   │   ├── Event.ts
+│   │   │   ├── Order.ts
+│   │   │   ├── Notification.ts
+│   │   │   └── Board.ts
+│   │   ├── routes/
+│   │   │   ├── auth.ts
+│   │   │   ├── users.ts
+│   │   │   ├── patterns.ts
+│   │   │   ├── posts.ts
+│   │   │   ├── upload.ts
+│   │   │   └── admin.ts
+│   │   ├── middleware/
+│   │   │   ├── auth.ts
+│   │   │   ├── errorHandler.ts
+│   │   │   └── socketAuth.ts
+│   │   ├── sockets/
+│   │   │   └── socket.ts
+│   │   ├── services/
+│   │   │   └── uploadService.ts
+│   │   ├── utils/
+│   │   │   └── sanitize.ts
+│   │   └── index.ts
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── Dockerfile
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Header.tsx
+│   │   │   ├── PatternForm.tsx
+│   │   │   ├── Chat.tsx
+│   │   │   └── ...
+│   │   ├── pages/
+│   │   │   ├── Home.tsx
+│   │   │   ├── Explore.tsx
+│   │   │   ├── Login.tsx
+│   │   │   ├── Register.tsx
+│   │   │   ├── CreatePattern.tsx
+│   │   │   └── ...
+│   │   ├── contexts/
+│   │   │   └── AuthContext.tsx
+│   │   ├── services/
+│   │   │   └── api.ts
+│   │   ├── hooks/
+│   │   │   ├── useTheme.ts
+│   │   │   └── useLanguage.ts
+│   │   ├── i18n/
+│   │   │   └── index.ts
+│   │   ├── App.tsx
+│   │   ├── main.tsx
+│   │   └── index.css
+│   ├── package.json
+│   ├── vite.config.ts
+│   ├── tailwind.config.js
+│   ├── tsconfig.json
+│   └── Dockerfile
+├── docker-compose.yml
+├── .env.example
+└── README.md
